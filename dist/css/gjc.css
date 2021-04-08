@@ -1,0 +1,17 @@
+.contact-info {
+    color: rgba(160, 160, 160, 1.0);
+    font-size: 0.9rem;
+}
+
+.lora-font {
+    font-family: "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.no-sign-item {
+    list-style: none;
+}
+
+.underline{
+    border-radius: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}

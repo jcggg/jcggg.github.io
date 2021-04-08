@@ -8,26 +8,31 @@
     <link rel="shortcut icon" type="image/x-icon" href="dist/img/favicon.ico">
 
     <!-- Google Font: Source Sans Pro -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">-->
+    <!-- Google Font: Lora -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
     <!-- overlayScrollbars -->
     <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
     <!-- Theme style -->
     <link rel="stylesheet" href="dist/css/adminlte.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="dist/css/gjc.css">
 </head>
 <body class="hold-transition dark-mode layout-top-nav layout-fixed layout-navbar-fixed">
     <div class="wrapper">
         <!-- Preloader -->
         <div class="preloader flex-column justify-content-center align-items-center">
-            <img class="animation__wobble" src="dist/img/favicon.ico" alt="AdminLTELogo" height="60" width="60">
+            <img class="animation__wobble" src="dist/img/favicon.ico" alt="THU Logo" height="60" width="60">
         </div>
 
         <!-- Navbar -->
         <nav class="main-header navbar navbar-expand-md navbar-light navbar-dark">
             <div class="container">
                 <a href="index.html" class="navbar-brand">
-                    <img src="dist/img/favicon.ico" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+                    <img src="dist/img/favicon.ico" alt="THU Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
                     <span class="brand-text font-weight-light">Junchen Guo's Homepage</span>
                 </a>
 
@@ -44,7 +49,7 @@
                     </ul>
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="dist/file/GJC_Resume@20210407.pdf" class="nav-link">[中文简历链接]</a>
+                            <a href="dist/file/GJC_Resume@20210407.pdf" class="nav-link text-lightblue">[中文简历链接]</a>
                         </li>
                     </ul>
                 </div>
@@ -52,8 +57,8 @@
         </nav>
         <!-- /.navbar -->
 
-        <!-- personal info -->
         <div class="content-wrapper">
+            <!-- personal info -->
             <div class="container">
                 <div>
                     <br/>
@@ -62,20 +67,354 @@
                     </p>
 
                     <p style="text-align:center">
-                        <font color="#888888" size="1px">
-                            <i>Room 11-201, East Side Building, Tsinghua University, Beijing, P.R. China, 100084</i>
-                        </font>
+                        <i class="contact-info">Room 11-201, East Side Building, Tsinghua University, Beijing, P.R. China, 100084</i>
                         <br/>
-                        <i class="fa fa-phone"></i>  (+86) 155-1072-8994<b>&nbsp;&nbsp;|&nbsp;&nbsp;</b>
-                        <i class="fa fa-envelope"></i>  juncguo AT gmail DOT com<b>&nbsp;&nbsp;|&nbsp;&nbsp;</b>
-                        <i class="fab fa-weixin"></i>  guojunchen55<b>&nbsp;&nbsp;|&nbsp;&nbsp;</b>
-                        <i class="fa fa-home"></i>  <a href="#">jcggg.me</a><b>&nbsp;&nbsp;|&nbsp;&nbsp;</b>
-                        <i class="fa fa-camera-retro"></i>  <a href="https://500px.com.cn/jcggg">500px:JCGGG</a>
+                        <i class="fa fa-phone"></i>&nbsp;(+86) 155-1072-8994<b>&nbsp;&nbsp;|&nbsp;&nbsp;</b>
+                        <i class="fa fa-envelope"></i>&nbsp;juncguo AT gmail DOT com<b>&nbsp;&nbsp;|&nbsp;&nbsp;</b>
+                        <i class="fab fa-weixin"></i>&nbsp;guojunchen55<b>&nbsp;&nbsp;|&nbsp;&nbsp;</b>
+                        <i class="fa fa-home"></i>&nbsp;<a href="#" class="text-lightblue">jcggg.me</a><b>&nbsp;&nbsp;|&nbsp;&nbsp;</b>
+                        <i class="fab fa-google"></i>&nbsp;<a href="https://scholar.google.com/citations?user=TvI47boAAAAJ" class="text-lightblue">Google Scholar</a><b>&nbsp;&nbsp;|&nbsp;&nbsp;</b>
+                        <i class="fab fa-linkedin"></i>&nbsp;<a href="https://www.linkedin.com/in/junchen-guo-a2283385/" class="text-lightblue">LinkedIn</a><b>&nbsp;&nbsp;|&nbsp;&nbsp;</b>
+                        <i class="fa fa-camera-retro"></i>&nbsp;<a href="https://500px.com.cn/jcggg" class="text-lightblue">500px:JCGGG</a>
                     </p>
                 </div>
             </div>
+            <!-- /.personal info -->
+
+            <!-- Main content -->
+            <section class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-10 offset-md-1">
+                            <!-- Biography box -->
+                            <div class="card card-outline card-info">
+                                <div class="card-header">
+                                    <h2 class="card-title lora-font"><b>Biography</b></h2>
+                                    <div class="card-tools">
+                                        <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="card-body lora-font">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Junchen is a 5th-year Ph.D. student in Software Engineering at
+                                    <a href="https://www.tsinghua.edu.cn/en/" class="text-lightblue">Tsinghua University</a>,
+                                    studying IoT systems in <a href="http://tns.thss.tsinghua.edu.cn/sun/" class="text-lightblue">SUN Group</a>
+                                    under the guidance of <a href="http://www.greenorbs.org/people/heyuan/" class="text-lightblue">Prof. Yuan He</a> and
+                                    <a href="https://en.wikipedia.org/wiki/Yunhao_Liu" class="text-lightblue">Prof. Yunhao Liu</a>.
+                                    His academic interests include IoT Systems, Wireless and Battery-Free Sensing, Mobile & Ubiquitous Computing,
+                                    and Edge Computing. Junchen has published several papers on international conferences and journals, e.g., ACM MobiCom,
+                                    IEEE/ACM IPSN, IEEE INFOCOM, IEEE ICPADS, IEEE ICII, IEEE Signal Processing Magazine and etc.,
+                                    and won the best paper award of IEEE ICII 2018 and best student paper award of IEEE
+                                    ICPADS 2017. Moreover, he has led several Industrial IoT projects and obtained 6 patents.
+                                    Before joining SUN Group, he obtained a B.E. degree in Computer Science and Technology at
+                                    <a href="https://en.ustc.edu.cn/" class="text-lightblue">USTC</a>.
+                                </div>
+                                <!-- /.card-body -->
+<!--                                <div class="card-footer">-->
+<!--                                    Footer-->
+<!--                                </div>-->
+<!--                                &lt;!&ndash; /.card-footer&ndash;&gt;-->
+                            </div>
+                            <!-- /.card -->
+
+                            <!-- Publication box -->
+                            <div class="card card-outline card-info">
+                                <div class="card-header">
+                                    <h2 class="card-title lora-font"><b>Publication</b></h2>
+                                    <div class="card-tools">
+                                        <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="card-body lora-font underline">
+                                    <h6><b>Conference Paper:</b></h6>
+                                    <ul>
+                                        <li>
+                                            <a href="#" class="text-lightblue">
+                                                <b>[IEEE/ACM IPSN 2021]</b> Dancing Waltz with Ghosts: Measuring Sub-mm-Level 2D Rotor Orbit with a Single mmWave Radar
+                                            </a>
+                                        </li>
+                                        <li class="no-sign-item"><b>Junchen Guo</b>, Meng Jin, *Yuan He, Weiguo Wang, Yunhao Liu</li>
+                                        <li class="no-sign-item">The 20th IEEE/ACM Conference on Information Processing in Sensor Networks, Virtual Event, May 18 - May 21, 2021</li>
+                                        <li class="no-sign-item">
+                                            <span class="badge badge-success">CCF-B</span>
+                                            <span class="badge badge-success">THU-A</span>
+                                            <a href="http://tns.thss.tsinghua.edu.cn/sun/researches/WirelessSensing.html"><span class="badge badge-info">Code</span></a>
+                                            <a href="http://tns.thss.tsinghua.edu.cn/sun/researches/WirelessSensing.html"><span class="badge badge-info">Dataset</span></a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="https://dl.acm.org/doi/10.1145/3372224.3419202" class="text-lightblue">
+                                                <b>[ACM MobiCom 2020]</b> mmVib: Micrometer-Level Vibration Measurement with mmWave Radar
+                                            </a>
+                                        </li>
+                                        <li class="no-sign-item"><u>Chengkun Jiang</u>, <u><b>Junchen Guo</b></u> (Co-primary author), *Yuan He, Meng Jin, Shuai Li, Yunhao Liu</li>
+                                        <li class="no-sign-item">The 26th Annual International Conference on Mobile Computing and Networking, Virtual Event, Sep. 21 - Sep. 25, 2020</li>
+                                        <li class="no-sign-item">
+                                            <span class="badge badge-success">CCF-A</span>
+                                            <span class="badge badge-success">THU-A</span>
+                                            <a href="https://www.youtube.com/watch?v=1Vq2bCAoF5k"><span class="badge badge-info">Video</span></a>
+                                            <a href="http://tns.thss.tsinghua.edu.cn/sun/researches/WirelessSensing.html"><span class="badge badge-info">Dataset</span></a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="https://ieeexplore.ieee.org/document/8737621" class="text-lightblue">
+                                                <b>[IEEE INFOCOM 2019]</b> TwinLeak: RFID-based Liquid Leakage Detection in Industrial Environments
+                                            </a>
+                                        </li>
+                                        <li class="no-sign-item"><b>Junchen Guo</b>, Ting Wang, *Yuan He, Meng Jin, Chengkun Jiang, Yunhao Liu</li>
+                                        <li class="no-sign-item">The 38th IEEE International Conference on Computer Communications, Paris, France, Apr. 29 - May 2, 2019</li>
+                                        <li class="no-sign-item">
+                                            <span class="badge badge-warning">Best In-Session Presentation Award</span>
+                                            <span class="badge badge-success">CCF-A</span>
+                                            <span class="badge badge-success">THU-A</span>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="https://dl.acm.org/doi/10.1145/3302506.3310386" class="text-lightblue">
+                                                <b>[IEEE/ACM IPSN 2019]</b> 3D-OmniTrack: 3D Tracking with COTS RFID Systems Environments
+                                            </a>
+                                        </li>
+                                        <li class="no-sign-item">Chengkun Jiang, *Yuan He, Songzhen Yang, <b>Junchen Guo</b>, Yunhao Liu</li>
+                                        <li class="no-sign-item">The 18th IEEE/ACM Conference on Information Processing in Sensor Networks, Montreal, Canada, Apr. 16 - 18, 2019</li>
+                                        <li class="no-sign-item">
+                                            <span class="badge badge-success">CCF-B</span>
+                                            <span class="badge badge-success">THU-A</span>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="https://dl.acm.org/doi/10.5555/3324320.3324422" class="text-lightblue">
+                                                <b>[EWSN 2019]</b> TVV: Real-Time Visual Identity and Tracking with Edge Computing
+                                            </a>
+                                        </li>
+                                        <li class="no-sign-item">Xinpeng Zhang, <b>*Junchen Guo</b>, Chunya Liu, Jie Zhou, Yao Luo, Long Liu, Meng Jin, Ziqiang Zhou, Zhoubin Liu</li>
+<!--                                        <li class="no-sign-item">The 1st International Workshop on Distributed Fog Services Design, Beijing, China, Feb. 25 - Feb. 27, 2019</li>-->
+                                        <li class="no-sign-item">The 16th International Conference on Embedded Wireless Systems and Networks, Beijing, China, Feb. 25 - Feb. 27, 2019</li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="https://ieeexplore.ieee.org/document/8539102" class="text-lightblue">
+                                                <b>[IEEE ICII 2018]</b> TagLeak: Non-intrusive and Battery-free Liquid Leakage Detection with Backscattered Signals
+                                            </a>
+                                        </li>
+                                        <li class="no-sign-item"><b>Junchen Guo</b>, Ting Wang, Meng Jin, Songzhen Yang, Chengkun Jiang, Long Liu, *Yuan He</li>
+                                        <li class="no-sign-item">The 1st IEEE International Conference on Industrial Internet, Bellevue, WA, USA, Oct. 21-23, 2018</li>
+                                        <li class="no-sign-item">
+                                            <span class="badge badge-warning">Best Paper Award</span>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="https://ieeexplore.ieee.org/document/8526839" class="text-lightblue">
+                                                <b>[IEEE ICNP 2018]</b> Canon: Exploiting Channel Diversity for Reliable Parallel Decoding in Backscatter Communication
+                                            </a>
+                                        </li>
+                                        <li class="no-sign-item">Chengkun Jiang, *Yuan He, Meng Jin, Xiaolong Zheng, <b>Junchen Guo</b></li>
+                                        <li class="no-sign-item">The 26th IEEE International Conference on Network Protocols, Cambridge, UK, Sept. 24-27, 2018</li>
+                                        <li class="no-sign-item">
+                                            <span class="badge badge-success">CCF-B</span>
+                                            <span class="badge badge-success">THU-A</span>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="https://ieeexplore.ieee.org/document/8368427" class="text-lightblue">
+                                                <b>[IEEE ICPADS 2017]</b> Pangu: Towards a Software-Defined Architecture for Multi-Function Wireless Sensor Networks
+                                            </a>
+                                        </li>
+                                        <li class="no-sign-item"><b>Junchen Guo</b>, *Yuan He, Xiaolong Zheng</li>
+                                        <li class="no-sign-item">The 23rd IEEE International Conference on Parallel and Distributed Systems, Shenzhen, China, Dec. 15-17, 2017</li>
+                                        <li class="no-sign-item">
+                                            <span class="badge badge-warning">Best Student Paper Award</span>
+                                            <span class="badge badge-success">CCF-C</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-body lora-font underline">
+                                    <h6><b>Journal Paper:</b></h6>
+                                    <ul>
+                                        <li>
+                                            <a href="https://ieeexplore.ieee.org/document/8368427" class="text-lightblue">
+                                                <b>[IEEE SPM 2018]</b> From Surveillance to Digital Twin: Challenges and Recent Advances of Signal Processing for Industrial IoT
+                                            </a>
+                                        </li>
+                                        <li class="no-sign-item">Yuan He, *<b>Junchen Guo</b>, Xiaolong Zheng</li>
+                                        <li class="no-sign-item">IEEE Signal Processing Magazine, Special Issue on Internet-of-Things, Volume 35, Issue 5, Page 120-129, Sept. 2018</li>
+                                        <li class="no-sign-item">
+                                            <span class="badge badge-success">SCI Top</span>
+                                            <span class="badge badge-success">IF = 9.654</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-body lora-font underline">
+                                    <h6><b>Demo/Poster/Ph.D. Forum Paper:</b></h6>
+                                    <ul>
+                                        <li>
+                                            <a href="#" class="text-lightblue">
+                                                <b>[IEEE INFOCOM 2021]</b> Poster Abstract: Pedestrian Trajectory based Calibration for Multi-Radar Network
+                                            </a>
+                                        </li>
+                                        <li class="no-sign-item">Shuai Li, <b>Junchen Guo</b>, Rui Xi, Chunhui Duan, Zhengang Zhai, *Yuan He</li>
+                                        <li class="no-sign-item">The 40th IEEE International Conference on Computer Communications, Virtual Event, May 10 - May 13, 2021</li>
+                                        <li class="no-sign-item">
+                                            <span class="badge badge-success">CCF-A</span>
+                                            <span class="badge badge-success">THU-A</span>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="#" class="text-lightblue">
+                                                <b>[IEEE INFOCOM 2021]</b> Poster Abstract: Voice Recovery from Human Surroundings with Millimeter Wave Radar
+                                            </a>
+                                        </li>
+                                        <li class="no-sign-item">Yinian Zhou, Awais Ahmad Siddiqi, Jia Zhang, <b>Junchen Guo</b>, Zhengang Zhai, *Yuan He</li>
+                                        <li class="no-sign-item">The 40th IEEE International Conference on Computer Communications, Virtual Event, May 10 - May 13, 2021</li>
+                                        <li class="no-sign-item">
+                                            <span class="badge badge-success">CCF-A</span>
+                                            <span class="badge badge-success">THU-A</span>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="https://dl.acm.org/doi/abs/10.5555/3324320.3324395" class="text-lightblue">
+                                                <b>[EWSN 2019]</b> Ph.D. Forum: Battery-Free Sensing in Industrial Environments
+                                            </a>
+                                        </li>
+                                        <li class="no-sign-item">*<b>Junchen Guo</b></li>
+                                        <li class="no-sign-item">The 16th International Conference on Embedded Wireless Systems and Networks, Beijing, China, Feb. 25 - Feb. 27, 2019</li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="https://dl.acm.org/doi/10.5555/3324320.3324362" class="text-lightblue">
+                                                <b>[EWSN 2019]</b> Poster Abstract: A Hierarchical VR Streaming System through a WiFi Connection
+                                            </a>
+                                        </li>
+                                        <li class="no-sign-item">Songzhou Yang, <b>Junchen Guo</b>, Xiaolong Zheng, Meng Jin, *Yuan He, et al.</li>
+                                        <li class="no-sign-item">The 16th International Conference on Embedded Wireless Systems and Networks, Beijing, China, Feb. 25 - Feb. 27, 2019</li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="https://dl.acm.org/doi/10.5555/3324320.3324349" class="text-lightblue">
+                                                <b>[EWSN 2019]</b> Poster Abstract: Enhanced Chatting Based on Multimodal Emotion Estimation.
+                                            </a>
+                                        </li>
+                                        <li class="no-sign-item">Luyao Chong, <b>Junchen Guo</b>, Jinming Li, Haozhen Liu, Meng Jin, *Yuan He</li>
+                                        <li class="no-sign-item">The 16th International Conference on Embedded Wireless Systems and Networks, Beijing, China, Feb. 25 - Feb. 27, 2019</li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="https://dl.acm.org/doi/abs/10.1145/3274783.3275179" class="text-lightblue">
+                                                <b>[ACM Sensys 2018]</b> Demo Abstract: IoT for the Power Industry: Recent Advances and Future Directions with Pavatar
+                                            </a>
+                                        </li>
+                                        <li class="no-sign-item">Yuan He, *<b>Junchen Guo</b>, Long Liu, Haozhen Liu, Xinpeng Zhang, et al.</li>
+                                        <li class="no-sign-item">The 16th ACM Conference on Embedded Networked Sensor Systems, Shenzhen, China, Nov. 4-7, 2018.</li>
+                                        <li class="no-sign-item">
+                                            <span class="badge badge-success">CCF-B</span>
+                                            <span class="badge badge-success">THU-A</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- /.card -->
+
+                            <!-- Education box -->
+                            <div class="card card-outline card-info">
+                                <div class="card-header">
+                                    <h2 class="card-title lora-font"><b>Education</b></h2>
+                                    <div class="card-tools">
+                                        <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="card-body lora-font underline">
+                                    <h6>[2016.09 - Present] <a href="https://www.tsinghua.edu.cn/en/" class="text-lightblue"><b>Tsinghua University</b> (THU)</a>, Beijing, P.R. China</h6>
+                                    <ul>
+                                        <li>Ph.D. in <b>Software Engineering</b>, research direction <b>Internet-of-Things (IoT)</b></li>
+                                    </ul>
+                                </div>
+                                <div class="card-body lora-font">
+                                    <h6>[2012.08 - 2016.07] <a href="https://en.ustc.edu.cn/" class="text-lightblue"><b>University of Science and Technoloy of China</b> (USTC)</a>, Heifei, Anhui, P.R. China</h6>
+                                    <ul>
+                                        <li>B.E. in <b>Computer Science and Technology</b>, with a minor in <b>Business Administration</b>, GPA 3.78/4.3, Rank 10/102</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- /.card -->
+
+                            <!-- Award box -->
+                            <div class="card card-outline card-info">
+                                <div class="card-header">
+                                    <h2 class="card-title lora-font"><b>Honors and Scholarships</b></h2>
+                                    <div class="card-tools">
+                                        <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="card-body lora-font underline">
+                                    <h6><b>Academic Awards:</b></h6>
+                                    <ul>
+                                        <li><span class="badge badge-success">IEEE</span> Best In-Session Presentation Award - IEEE INFOCOM 2019</li>
+                                        <li><span class="badge badge-success">IEEE</span> Student Travel Grant Award - IEEE INFOCOM 2019</li>
+                                        <li><span class="badge badge-info">ACM</span> Service Award - ACM TURC 2019</li>
+                                        <li><span class="badge badge-primary">EWSN</span> Service Award - EWSN 2019</li>
+                                        <li class="text-warning"><span class="badge badge-success">IEEE</span> <i class="fa fa-trophy"></i>&nbsp;&nbsp;Best Paper Award - IEEE ICII 2018</li>
+                                        <li><span class="badge badge-info">ACM</span> Best Poster Award - ACM International Workshop on IoT and Cloud Computing 2017</li>
+                                        <li class="text-warning"><span class="badge badge-success">IEEE</span> <i class="fa fa-trophy"></i>&nbsp;&nbsp;Best Student Paper Award - IEEE ICPADS 2017</li>
+                                    </ul>
+                                </div>
+                                <div class="card-body lora-font underline">
+                                    <h6><b>Competition Awards:</b></h6>
+                                    <ul>
+                                        <li><span class="badge badge-success">THU</span> The Second Prize of "Challenge Cup" National College Student Curricular Academic Science and Technology Works Competition, 2020</li>
+                                        <li><span class="badge badge-success">THU</span> The First Prize of "Challenge Cup" National College Student Curricular Academic Science and Technology Works Competition, 2019</li>
+                                        <li><span class="badge badge-info">USTC</span> Outstanding National University Student Innovation and Entrepreneurship Training Program, 2016</li>
+                                        <li><span class="badge badge-primary">ICM</span> Meritorious Winner for Interdisciplinary Contest in Modeling (ICM), 2015</li>
+                                        <li><span class="badge badge-secondary">DJI</span> The Best Creative Award for DJI Developer Challenge, 2015</li>
+                                        <li><span class="badge badge-info">USTC</span> The Runner-Up for USTC RoboGame, 2013</li>
+                                    </ul>
+                                </div>
+                                <div class="card-body lora-font underline">
+                                    <h6><b>Scholarships:</b></h6>
+                                    <ul>
+                                        <li><span class="badge badge-success">THU</span> The First Prize Scholarship for Excellent Student of THU (Supported by Glodon), 2019 - 2020</li>
+                                        <li><span class="badge badge-success">THU</span> The First Prize Scholarship for Excellent Student of THU (Supported by Huawei), 2018 - 2019</li>
+                                        <li><span class="badge badge-success">THU</span> The First Prize Scholarship for Excellent Student of THU (Supported by Shenzhen Stock Exchange), 2017 - 2018</li>
+                                        <li><span class="badge badge-info">USTC</span> Outstanding Graduate Scholarship of USTC, 2016</li>
+                                        <li><span class="badge badge-info">USTC</span> The First Prize for Excellent Student in Elite Class of Computer and Information Science Scholarship of USTC, 2014 - 2015</li>
+                                        <li><span class="badge badge-info">USTC</span> The First Prize for Excellent Student in Elite Class of Computer and Information Science Scholarship of USTC, 2013 - 2014</li>
+                                        <li><span class="badge badge-info">USTC</span> The First Prize for Excellent Student in Elite Class of Computer and Information Science Scholarship of USTC, 2012 - 2013</li>
+                                        <li><span class="badge badge-info">USTC</span> The First Prize Scholarship for Excellent Student of USTC (Supported by Seagate), 2014 - 2015</li>
+                                        <li><span class="badge badge-info">USTC</span> The First Prize Scholarship for Excellent Student of USTC (Supported by Guangtai Wang), 2013 - 2014</li>
+                                        <li><span class="badge badge-info">USTC</span> The Second Prize Scholarship for Excellent Student of USTC, 2012 - 2013</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- /.card -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /.content -->
         </div>
-        <!-- /.personal info -->
+
+        <!-- Main Footer -->
+        <footer class="main-footer">
+            <!-- To the right -->
+            <div class="float-right d-none d-sm-inline">
+                <strong>Last updated at </strong> 2021-04-08
+            </div>
+            <!-- Default to the left -->
+            <strong>juncguo AT gmail AT com</strong>
+        </footer>
     </div>
 
     <!-- REQUIRED SCRIPTS -->
@@ -96,10 +435,5 @@
     <script src="plugins/jquery-mapael/maps/usa_states.min.js"></script>
     <!-- ChartJS -->
     <script src="plugins/chart.js/Chart.min.js"></script>
-
-    <!-- AdminLTE for demo purposes -->
-    <script src="dist/js/demo.js"></script>
-    <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-    <script src="dist/js/pages/dashboard2.js"></script>
 </body>
 </html>
